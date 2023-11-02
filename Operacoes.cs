@@ -24,7 +24,7 @@ namespace Calculadora
         {
             return n1 * n2;
         }
-        public double Resto(double n1, double n2)
+        public double Modulo(double n1, double n2)
         {
             return n1 % n2;
         }
@@ -45,7 +45,7 @@ namespace Calculadora
                     Console.WriteLine(Multiplicacao(n1, n2));
                     break;
                 case "%":
-                    Console.WriteLine(Resto(n1, n2));
+                    Console.WriteLine(Modulo(n1, n2));
                     break;
             }
         }
